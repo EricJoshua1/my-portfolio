@@ -14,7 +14,7 @@ const Home = () => {
 
             <h2 className='text-4xl sm:text-7xl font-bold
             text-white'>
-                I'm a FrontEnd Web and Blockchain Developer
+                I'm a FrontEnd and Blockchain Developer
             </h2>
             <p className='text-gray-400 py-4 max-w-md'>
                 I am passionate about Frontend and Blockchain development.

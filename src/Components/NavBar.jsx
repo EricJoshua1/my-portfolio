@@ -16,15 +16,15 @@ const NavBar = () => {
     },
     {
       id: 3,
-      link: "Projects",
+      link: "projects",
     },
     {
       id: 4,
-      link: "Skills",
+      link: "skills and experience",
     },
     {
       id: 5,
-      link: "Contact",
+      link: "contact",
     },
   ];
 
@@ -68,7 +68,14 @@ const NavBar = () => {
               className="px-4 cursor-pointer capitalize py-6
                   text-4xl"
             >
-              {link}
+              <Link
+                onClick={() => setNav(!nav)}
+                to={link}
+                smooth
+                duration={500}
+              >
+                {link}
+              </Link>
             </li>
           ))}
         </ul>

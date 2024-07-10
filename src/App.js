@@ -1,6 +1,6 @@
 import About from "./Components/About";
 import Contact from "./Components/Contact";
-import Experience from "./Components/SkillsAndExperiences";
+// import Experience from "./Components/SkillsAndExperiences";
 import Home from "./Components/Home";
 import NavBar from "./Components/NavBar";
 import Portfolio from "./Components/Projects";
@@ -19,8 +19,8 @@ function App() {
       <Home />
       <About />
       <Portfolio />  
-      <Skills /> 
-      <Experience />
+      <Skills />
+      {/* <Experience /> */}
       <Contact />
 
       <SocialLinks />

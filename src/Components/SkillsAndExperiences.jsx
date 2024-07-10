@@ -10,7 +10,57 @@ import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 
 const SkillsAndExperience = () => {
-  const techs = [
+  const languages = [
+    {
+      id: 1,
+      src: html,
+      title: "HTML",
+      style: "shadow-orange-500",
+    },
+    {
+      id: 2,
+      src: css,
+      title: "CSS",
+      style: "shadow-blue-500",
+    },
+    {
+      id: 3,
+      src: javascript,
+      title: "JavaScript",
+      style: "shadow-yellow-500",
+    },
+    {
+      id: 4,
+      src: reactImage,
+      title: "React",
+      style: "shadow-blue-600",
+    },
+    {
+      id: 5,
+      src: tailwind,
+      title: "Tailwind",
+      style: "shadow-sky-400",
+    },
+    {
+      id: 6,
+      src: solidity,
+      title: "Solidity",
+      style: "shadow-white",
+    },
+    {
+      id: 7,
+      src: graphql,
+      title: "GraphQL",
+      style: "shadow-pink-400",
+    },
+    {
+      id: 8,
+      src: github,
+      title: "GitHub",
+      style: "shadow-gray-400",
+    },
+  ];
+  const forFrontEnd = [
     {
       id: 1,
       src: html,
@@ -71,11 +121,11 @@ const SkillsAndExperience = () => {
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
             Skills and Experiences
           </p>
-          <p className=" pt-10 pb-2 text-3xl py-6">Frontend Development</p>
+          <p className=" pt-10 pb-2 text-3xl py-6">Languages</p>
         </div>
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
-          {techs.map(({ id, src, title, style }) => (
+          {languages.map(({ id, src, title, style }) => (
             <div
               key={id}
               className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}

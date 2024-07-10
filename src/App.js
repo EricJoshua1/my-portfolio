@@ -5,44 +5,27 @@ import Home from "./Components/Home";
 import NavBar from "./Components/NavBar";
 import Portfolio from "./Components/Projects";
 import SocialLinks from "./Components/SocialLinks";
-import React, { } from "react"
-import useScrollSnap from "./hooks/useScrollSnap";
+import Skills from "./Components/Skills";
+
+
 
 function App() {
-  const containerRef = React.createRef();
-
-  const [bind, unbind] = useScrollSnap(
-    containerRef,
-    { snapDestinationY: "90%" },
-    () => console.log("snapped")
-  );
   
 
-  return (<>
-    <NavBar />
-    <div id="container" ref={containerRef} style={{ display: 'flex', flexDirection: 'column', 
-      position: 'absolute', overflow: 'auto', top: 80, left: 0, width: '100%', height: '100%' }}>
-        <div style={ {
-  display: 'flex',
-  flexDirection: 'column',
-  position: 'absolute',
-  overflow: 'auto',
-  top: 0,
-  left: 0,
-  width: '100%',
-  height: '100%',
-}}>
-
-          <Home />
-        </div>
+  return (
+   
+        <div>
+      <NavBar />
+      <Home />
       <About />
-      <Portfolio />   
+      <Portfolio />  
+      <Skills /> 
       <Experience />
       <Contact />
 
       <SocialLinks />
     </div>
-  </>
+  
   );
 }
 

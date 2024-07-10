@@ -14,17 +14,19 @@ const Home = () => {
       items-center justify-center h-full px-4 md:flex-row"
       >
         <div className="flex flex-col justify-center h-full">
+          <p className="text-3xl font-bold text-cyan-400  py-4 max-w-md">
+            Hi, I'm Eric.
+          </p>
           <h2
             className="text-4xl sm:text-7xl font-bold
             text-white"
           >
-            I'm a FrontEnd and Blockchain Developer
+            {` Frontend - Blockchain Developer />`}
           </h2>
-          <p className="text-gray-400 py-4 max-w-md">
-            I am passionate about Frontend and Blockchain development.
-            Currently, I am working as a researcher at ContiLab, where i get to
-            develop decentralized web blockchain applications using technologies
-            like React, Solidity, Tailwind, Polygon, Hardhart etc.
+          <p className="text-gray-300 py-4 max-w-md">
+            I am a Web & Blockchain Developer with a background in Civil and
+            Construction Engineering, currently working as researcher
+            integrating advanced technology to enhance worksite safety
           </p>
 
           <div>

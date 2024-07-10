@@ -13,24 +13,45 @@ const About = () => {
           </p>
         </div>
 
-        <p className="text-xl mt-20">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque
-          sapiente adipisci repudiandae itaque atque a. A, delectus? Perferendis
-          explicabo cum omnis esse nostrum nemo nobis doloremque delectus
-          maiores, aliquam iste ut odio voluptate necessitatibus, deleniti
-          beatae corporis rerum at recusandae reprehenderit aut sed numquam
-          laboriosam quaerat. Eos ipsa pariatur fugit.
+        <p className=" text-gray-300 text-xl mt-20">
+          Hi! l'm Eric Joshua, a devoted{" "}
+          <span className="font-bold text-cyan-400">Web3 developer</span> with a
+          deep interest in creating{" "}
+          <span className=" text-cyan-400">
+            website applications and systems
+          </span>{" "}
+          that run on{" "}
+          <span className="font-bold text-cyan-400">blockchain technology</span>
+          . My current role involves researching, desingning and implementing
+          scalable solutions that improve the{" "}
+          <span className=" text-cyan-400">
+            safety management processes in construction
+          </span>{" "}
+          using blockchain technology.
         </p>
 
         <br />
 
-        <p className="text-xl">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur,
-          natus amet sapiente reprehenderit nesciunt recusandae velit ex animi,
-          perferendis suscipit, non temporibus deserunt aut minima enim rem.
-          Sunt, alias error vero, adipisci odio deleniti excepturi
-          exercitationem at debitis cum quasi saepe delectus natus tempore
-          asperiores voluptates perferendis aliquid iste quos.
+        <p className=" text-gray-300 text-xl">
+          My first dive into Web development and blockchain technology came
+          during my Master's degree in 2022, when I joined CONTILAB as an
+          assistant researcher. I was instantly captivated by this vibrant world
+          where creativity was the core value that drove solving real-world
+          challenges through innovative technology. This fueled me through a
+          rigorous path of self-taught programming, a journey featured with
+          countless late nights and occasional frustrations, but the thrill of
+          seeing my code come to life kept me hooked. Every successful
+          deployment felt like a victory lap, keeping me on a continuous quest
+          for knowledge.
+        </p>
+
+        <br />
+
+        <p className="text-gray-300 text-xl">
+          These experiences have shaped me into a resilient developer with a
+          knack for turning complex problems into elegant, functional solutions.
+          As I continue to forge my path in tech, I'm looking to team up with
+          people who are commited to making a significant impact.
         </p>
       </div>
     </div>

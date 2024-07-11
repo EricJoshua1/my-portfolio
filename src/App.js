@@ -7,25 +7,20 @@ import Portfolio from "./Components/Projects";
 import SocialLinks from "./Components/SocialLinks";
 import Skills from "./Components/Skills";
 
-
-
 function App() {
-  
-
   return (
-   
-        <div>
+    <div className="flex flex-col min-h-screen">
       <NavBar />
-      <Home />
-      <About />
-      <Portfolio />  
-      <Skills />
-      {/* <Experience /> */}
-      <Contact />
-
+      <main className="flex-grow">
+        <Home />
+        <About />
+        <Portfolio />
+        <Skills />
+        {/* <Experience /> */}
+        <Contact />
+      </main>
       <SocialLinks />
     </div>
-  
   );
 }
 

@@ -4,35 +4,33 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
+      className="w-full min-h-screen bg-gradient-to-b from-gray-800 to-black text-white pt-20"
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="pb-8 ">
+      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full">
+        <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             About
           </p>
         </div>
 
-        <p className=" text-gray-300 text-xl mt-20">
-          Hi! l'm Eric Joshua, a devoted{" "}
+        <p className="text-gray-300 text-xl mt-10">
+          Hi! I'm Eric Joshua, a devoted{" "}
           <span className="font-bold text-cyan-400">Web3 developer</span> with a
           deep interest in creating{" "}
-          <span className=" text-cyan-400">
+          <span className="text-cyan-400">
             website applications and systems
-          </span>{" "}
+          </span>
           that run on{" "}
           <span className="font-bold text-cyan-400">blockchain technology</span>
-          . My current role involves researching, desingning and implementing
+          . My current role involves researching, designing, and implementing
           scalable solutions that improve the{" "}
-          <span className=" text-cyan-400">
+          <span className="text-cyan-400">
             safety management processes in construction
-          </span>{" "}
+          </span>
           using blockchain technology.
         </p>
 
-        <br />
-
-        <p className=" text-gray-300 text-xl">
+        <p className="text-gray-300 text-xl mt-4">
           My first dive into Web development and blockchain technology came
           during my Master's degree in 2022, when I joined CONTILAB as an
           assistant researcher. I was instantly captivated by this vibrant world
@@ -45,13 +43,11 @@ const About = () => {
           for knowledge.
         </p>
 
-        <br />
-
-        <p className="text-gray-300 text-xl">
+        <p className="text-gray-300 text-xl mt-4">
           These experiences have shaped me into a resilient developer with a
           knack for turning complex problems into elegant, functional solutions.
           As I continue to forge my path in tech, I'm looking to team up with
-          people who are commited to making a significant impact.
+          people who are committed to making a significant impact.
         </p>
       </div>
     </div>

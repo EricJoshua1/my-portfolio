@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 pt-20" // Padding to offset the height of the NavBar
+      className="min-h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 pt-20" // Padding to offset the height of the NavBar
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row md:px-6 lg:px-8">
         <div className="flex flex-col justify-center h-full text-center md:text-left">

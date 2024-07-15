@@ -5,9 +5,24 @@ import portfolioWebsite from "../assets/portfolio/portfolioWebsite.jpg";
 
 const Projects = () => {
   const projects = [
-    { id: 1, src: zkNMRS },
-    { id: 2, src: GameHub },
-    { id: 3, src: portfolioWebsite },
+    {
+      id: 1,
+      src: zkNMRS,
+      demoUrl: "https://inmrs.netlify.app/login",
+      codeUrl: "https://github.com/EricJoshua1/ZKP-NMR",
+    },
+    {
+      id: 2,
+      src: GameHub,
+      demoUrl: "https://game-corner-five.vercel.app/",
+      codeUrl: "https://github.com/EricJoshua1/Games-platform",
+    },
+    {
+      id: 3,
+      src: portfolioWebsite,
+      demoUrl: "https://ericjoshua-myportfolio.netlify.app/",
+      codeUrl: "https://github.com/EricJoshua1/my-portfolio",
+    },
   ];
 
   return (
@@ -26,7 +41,7 @@ const Projects = () => {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 px-4 md:px-6">
-          {projects.map(({ id, src }) => (
+          {projects.map(({ id, src, demoUrl, codeUrl }) => (
             <div key={id} className="shadow-md shadow-gray-700 rounded-lg">
               <img
                 src={src}
@@ -34,12 +49,22 @@ const Projects = () => {
                 className="rounded-t-md duration-200 hover:scale-105"
               />
               <div className="p-4 flex items-center justify-center">
-                <button className="text-sm md:text-base px-4 py-2 m-2 duration-200 hover:scale-105 bg-gray-700 rounded hover:bg-gray-600">
+                <a
+                  href={demoUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm md:text-base px-4 py-2 m-2 duration-200 hover:scale-105 bg-gray-700 rounded hover:bg-gray-600"
+                >
                   Demo
-                </button>
-                <button className="text-sm md:text-base px-4 py-2 m-2 duration-200 hover:scale-105 bg-gray-700 rounded hover:bg-gray-600">
+                </a>
+                <a
+                  href={codeUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm md:text-base px-4 py-2 m-2 duration-200 hover:scale-105 bg-gray-700 rounded hover:bg-gray-600"
+                >
                   Code
-                </button>
+                </a>
               </div>
             </div>
           ))}

@@ -10,6 +10,11 @@ import solidity from "../assets/solidity.png";
 import tailwind from "../assets/tailwind.png";
 import chakraui from "../assets/chakraUI.png";
 import web3js from "../assets/web3js.png";
+import ethereum from "../assets/ethereum.png";
+import polygon from "../assets/polygon.png";
+import remixIDE from "../assets/remixIDE.png";
+import hardhat from "../assets/hardhat.png";
+import zokrates from "../assets/zokrates.png";
 
 const Category = ({ title, skills }) => (
   <div className="flex-1 w-full p-4 text-white">
@@ -65,13 +70,13 @@ const SkillsAndExperience = () => {
   ];
   const forFrontEnd = [
     {
-      id: 4,
+      id: 6,
       src: reactImage,
       title: "React",
       style: "shadow-blue-600",
     },
     {
-      id: 5,
+      id: 7,
       src: tailwind,
       title: "Tailwind",
       style: "shadow-sky-400",
@@ -86,10 +91,40 @@ const SkillsAndExperience = () => {
   ];
   const forBlockchain = [
     {
-      id: 4,
+      id: 9,
       src: web3js,
       title: "web3js",
-      style: "shadow-blue-600",
+      style: "shadow-gray-300",
+    },
+    {
+      id: 10,
+      src: ethereum,
+      title: "ethereum",
+      style: "shadow-blue-300",
+    },
+    {
+      id: 11,
+      src: polygon,
+      title: "polygon",
+      style: "shadow-purple-300",
+    },
+    {
+      id: 12,
+      src: remixIDE,
+      title: "remixIDE",
+      style: "shadow-sky-300",
+    },
+    {
+      id: 13,
+      src: hardhat,
+      title: "hardhat",
+      style: "shadow-yellow-300",
+    },
+    {
+      id: 14,
+      src: zokrates,
+      title: "zokrates",
+      style: "shadow-gray-300",
     },
   ];
 

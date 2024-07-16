@@ -18,7 +18,7 @@ const About = () => {
           <span className="font-bold text-cyan-400">Web3 developer</span> with a
           deep interest in creating{" "}
           <span className="text-cyan-400">
-            website applications and systems
+            website applications and systems{" "}
           </span>
           that run on{" "}
           <span className="font-bold text-cyan-400">blockchain technology</span>

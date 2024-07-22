@@ -9,7 +9,7 @@ const Projects = () => {
       id: 1,
       src: zkNMRS,
       demoUrl: "https://inmrs.netlify.app/login",
-      codeUrl: "https://github.com/EricJoshua1/ZKP-NMR",
+      codeUrl: "https://github.com/EricJoshua1/zk-NMRS",
     },
     {
       id: 2,

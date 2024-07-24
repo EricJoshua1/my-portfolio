@@ -135,7 +135,7 @@ const SkillsAndExperience = () => {
     >
       <div className="max-w-screen-lg mx-auto flex flex-col justify-center w-full h-full">
         <div className="w-full p-4">
-          <p className="text-2xl md:text-3xl lg:text-4xl text-white font-bold border-b-4 border-gray-500 py-2 mx-2 md:mx-4">
+          <p className="text-2xl md:text-3xl lg:text-4xl text-white font-bold inline border-b-4 border-gray-500 py-2 mx-2 md:mx-4">
             Skills and Experiences
           </p>
         </div>
